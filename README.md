@@ -11,7 +11,7 @@ Ihr habt unterschiedliche Endpoints. Schreibt Validierungen für diese:
     - Record erstellen:
         - überprüft ob der `title` vorhanden und ein `String` ist 
         - überprüft ob der `price` vorhanden und eine `Number` ist 
-        - überprüft ob der Genre ein String ist und ob er entweder `Rock`, `Classic` oder Punk` lautet
+        - überprüft ob der Genre ein String ist und ob er entweder `Rock`, `Classic` oder `Punk` lautet
     - User erstellen:
         - überprüft ob `name`, `password` `Strings` sind und ob `email` eine Email ist
         - überprüft, dass die Email noch nicht in der Datenbank existiert

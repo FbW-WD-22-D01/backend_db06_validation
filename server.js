@@ -23,6 +23,7 @@ app.use(cors({
 
 app.use(express.json())
 
+
 app.use('/records', recordsRouter)
 app.use('/orders', ordersRouter)
 app.use('/users', usersRouter)
@@ -46,4 +47,4 @@ app.use((error, req, res, next) => {
 })
 
 
-app.listen(process.env.PORT, () => console.log('app listening on localhost:3001'))
+app.listen(process.env.PORT || 3001, () => console.log('app listening on localhost:3001'))
